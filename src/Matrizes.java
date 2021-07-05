@@ -17,7 +17,7 @@ public class Matrizes {
 		
 		for(int i=0;i<5;i++) {
 			for(int j=0;j<2;j++) {
-				System.out.println("O valor da linha " + i + "e coluna " + j + " é: " + matriz[i][j]);
+				System.out.println("O valor da linha " + i + " e coluna " + j + " é: " + matriz[i][j]);
 			}
 		}
 	}
