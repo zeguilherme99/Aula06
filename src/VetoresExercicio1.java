@@ -25,6 +25,6 @@ public class VetoresExercicio1 {
 			System.out.println("Valor desconhecido");
 		}
 		
-		
+		leitor.close();
 	}
 }

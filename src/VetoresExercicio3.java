@@ -9,7 +9,7 @@ public class VetoresExercicio3 {
 		int vetor[] = new int[10];
 		
 		for(int i=0; i<vetor.length; i++) {
-			vetor[i]= gerador.nextInt(9);
+			vetor[i]= gerador.nextInt(10);
 			if(vetor[i]>3 && vetor[i]<7) {
 				cont1++;
 			}
@@ -32,5 +32,7 @@ public class VetoresExercicio3 {
 		for(int i=0; i<vetor.length; i++) {
 			System.out.println(vetor[i]);
 		}
+		
+		leitor.close();
 	}
 }

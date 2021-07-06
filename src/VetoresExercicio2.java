@@ -26,5 +26,7 @@ public class VetoresExercicio2 {
 				System.out.println(media);
 			}
 		}
+		
+		leitor.close();
  	}
 }

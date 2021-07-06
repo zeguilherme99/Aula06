@@ -5,7 +5,7 @@ public class Matrizes {
 	
 	public static void main(String[] args) {
 		Scanner leitor  = new Scanner(System.in);
-		int vetor[] = new int[5];
+//		int vetor[] = new int[5];
 		int matriz[][] = new int [5][2];
 		
 		for(int i=0;i<5;i++) {
@@ -20,5 +20,6 @@ public class Matrizes {
 				System.out.println("O valor da linha " + i + " e coluna " + j + " é: " + matriz[i][j]);
 			}
 		}
+		leitor.close();
 	}
 }

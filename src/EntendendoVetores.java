@@ -20,5 +20,7 @@ public class EntendendoVetores {
 		for(int i=0;i<5;i++) {
 			System.out.println(vetor[i]);
 		}
+		
+		leitor.close();
 	}
 }
